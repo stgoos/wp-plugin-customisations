@@ -14,4 +14,4 @@ Find more about the plugin itself on: https://yop-poll.com/
    Simply include the code in your child themes functions.php.
    
    File(s):
-   - yop-poll-change-default-answer-text-slider-questions.php
+   - yop-poll_change-default-answer-text-slider-questions.php
