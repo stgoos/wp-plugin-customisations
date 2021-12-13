@@ -1,4 +1,4 @@
-# WordPress plugin: YOP POLL 
+# WordPress Plugin Customisations
 Custom code for the YOP POLL plugin for WordPress.
 
 Find more about the plugin itself on: https://yop-poll.com/
