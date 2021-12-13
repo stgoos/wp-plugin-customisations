@@ -3,7 +3,7 @@
 /** 
  * Change the default answer of YOP-POLL text-sliders
  * by stgoos ( https://github.com/stgoos/wp-plugin-customisations/blob/main/yop-poll_change-default-answer-text-sliders.php ) 
- * v2021.12.1302
+ * v2021.12.1303
  * Simply include this code in your child themes functions.php.
  */
 
@@ -21,6 +21,7 @@ jQuery(document).ready(function($){
 	$.each(ids, function(key, value) {
 		// Get the slider data-ticks array
 		var dataticks = $('div[data-id="' + value + '"]').attr('data-ticks');
+		dataticks = dataticks.slice(1,-1); // Remove the [ and ]
 		var dataticks_arr = dataticks.split(",");
 		var dataticks_len = dataticks_arr.length;
 		// Set the default answer to the middle data-tick (obviously an odd number of data-ticks works best for this, otherwise it's the one to the left of the middle!)
