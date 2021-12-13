@@ -43,8 +43,8 @@ jQuery(document).ready(function($){
 		$('#text-slider-' + value + ' div.tooltip.tooltip-main.top div.tooltip-inner').text(answer);
 		/*
 		div #text-slider-123
-			div.slider-tick-label-container		... don't seem to be needed
-			div.slider-tick-container			... don't seem to be needed
+			div.slider-tick-label-container		... don't seem to be needed when you don't show the tick containers
+			div.slider-tick-container			... don't seem to be needed when you don't show the tick containers
 		*/
 		$('#text-slider-' + value + ' div.slider-handle.min-slider-handle').css('left', perc + '%');
 		$('#text-slider-' + value + ' div.slider-handle.min-slider-handle').attr('aria-valuenow', answer).css('left', perc + '%');
