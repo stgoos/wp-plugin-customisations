@@ -1,5 +1,5 @@
 # WordPress Plugin Customisations
-In this repository you can find my customisations to WordPress plugins.
+In this repository you can find my customisations for WordPress plugins.
 
 
 ### YOP POLL (Pro)
