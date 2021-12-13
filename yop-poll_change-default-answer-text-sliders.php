@@ -19,9 +19,8 @@ jQuery(document).ready(function($){
 
 	// Loop through all the text-sliders
 	$.each(ids, function(key, value) {
-		// Get the slider data-ticks array
-		var dataticks = $('div[data-id="' + value + '"]').attr('data-ticks');
-		dataticks = dataticks.slice(1,-1); // Remove the [ and ]
+		// Get the slider data-ticks array and remove the [ and ] from it
+		var dataticks = $('div[data-id="' + value + '"]').attr('data-ticks').slice(1,-1);
 		var dataticks_arr = dataticks.split(",");
 		var dataticks_len = dataticks_arr.length;
 		// Set the default answer to the middle data-tick (obviously an odd number of data-ticks works best for this, otherwise it's the one to the left of the middle!)
