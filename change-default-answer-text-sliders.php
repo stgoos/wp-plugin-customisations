@@ -4,7 +4,7 @@
  * Change the default answer of YOP-POLL text-sliders
  * by stgoos ( https://github.com/stgoos/wp-plugin-yop-poll-pro ) 
  * v2021.12.1302
- * Simply this code in your child theme functions.php.
+ * Simply include this code in your child themes functions.php.
  */
 
 add_action( 'wp_head', function () { ?>
