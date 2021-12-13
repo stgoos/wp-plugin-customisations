@@ -1,5 +1,7 @@
-# wp-plugin-yop-poll-pro
-Custom code for the YOP POLL PRO plugin for WordPress
+# WordPress plugin: YOP POLL 
+Custom code for the YOP POLL plugin for WordPress.
+
+Find more about the plugin itself on https://yop-poll.com/
 
 + Change the default answer for text-slider questions
 
